@@ -1,0 +1,25 @@
+# --- Core Math, Array & Time-Series Operations ---
+numpy>=1.24.0,<2.2.0
+pandas>=2.0.0,<3.0.0
+scipy>=1.10.0,<1.15.0
+
+# --- Econometrics & Advanced Statistics ---
+statsmodels>=0.14.0,<0.15.0
+
+# --- Machine Learning & Pipeline Utilities ---
+scikit-learn>=1.3.0,<1.6.0
+pyyaml>=6.0.1
+
+# --- Market Data Fetching (OHLCV & Microstructure) ---
+yfinance>=0.2.35
+# Cài đặt thêm vnstock nếu giao dịch thị trường Việt Nam:
+# pip install -U --extra-index-url [https://vnstocks.com/api/simple](https://vnstocks.com/api/simple) vnstock
+
+# --- Visualization & Reporting ---
+matplotlib>=3.7.0
+seaborn>=0.12.2
+mplfinance>=0.12.10b0
+
+# --- Testing & Quality Assurance ---
+pytest>=7.4.0
+pytest-cov>=4.1.0
